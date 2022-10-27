@@ -30,7 +30,7 @@ void insertNewNode(Node* &tail, int data, int element=0) {
 
     while(temp->data != element && element != 0) {
         if(temp == tail) {
-            cout<<"Element "<<element<<" not found in the list\n";
+            cout<<"Element "<<element<<" not found in the list!\n";
             return;
         }
         
@@ -52,7 +52,7 @@ void insertNewNode(Node* &tail, int data, int element=0) {
 
 void deleteNode(Node* &tail, int target) {
     if(tail == NULL) {
-        cout<<"List is empty - Nothing to delete"<<endl;
+        cout<<"List is empty! Nothing to delete"<<endl;
         return;
     }
 

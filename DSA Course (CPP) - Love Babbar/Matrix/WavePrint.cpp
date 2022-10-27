@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int arr[100][100], r, c;
-    cout<<"\nEnter the row and column of array: ";
+    cout<<"\nEnter the row and column of the array: ";
     cin>>r>>c;
 
     cout<<"\nEnter the elements of the array: ";

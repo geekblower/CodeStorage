@@ -71,7 +71,7 @@ void insertAtPosition(Node* &head, Node* &tail, int position, int data) {
 
 void print(Node* &head) {
     if(head == NULL) {
-        cout<<"List is empty\n";
+        cout<<"List is empty!\n";
         return;
     }
 
